@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Handlebars</title>
+  
+  <!-- reference handlebars library-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+
+  <!-- call on template user and insert data structure -->
+  <script type="text/x-template" class="userTemplate">
+    <tr>
+      <td>{{username}}</td>
+      <td>{{firstName}}</td>
+      <td>{{lastName}}</td>
+      <td>{{email}}</td>
+    </tr>
+</script>
+
+</head>
+
+  <body>
+    <!-- create data display structure you want/ titles for data -->
+    <table>
+      <tr>
+        <th>Username</th>
+        <th>First name</th>
+        <th>Last name</th>
+        <th>Email</th>
+      </tr>
+
+      <!-- this is where you data will display on browser-->
+      <tbody class="userData">
+        
+      </tbody>
+    </table>
+  </body>
+</html>
+</script>
+<script src="js/users.js"></script>
+</body>
+</html>
