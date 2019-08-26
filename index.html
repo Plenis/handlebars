@@ -11,12 +11,14 @@
 
   <!-- call on template user and insert data structure -->
   <script type="text/x-template" class="userTemplate">
+    {{#each users}}
     <tr>
       <td>{{username}}</td>
       <td>{{firstName}}</td>
       <td>{{lastName}}</td>
       <td>{{email}}</td>
     </tr>
+    {{/each}}
 </script>
 
 </head>
